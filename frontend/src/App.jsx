@@ -157,10 +157,10 @@ const Home = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold mb-6 text-slate-900 ">
-              Why Choose CODLITE?
+              Why Choose InternX?
             </h2>
             <p className="text-lg text-slate-600  mb-8 leading-relaxed">
-              CODLITE provides industry-focused internship programs with
+              InternX provides industry-focused internship programs with
               real-world project experience, helping students build practical
               skills and boost their career growth. We bridge the gap between
               academic theory and industry demands.
@@ -227,7 +227,7 @@ const Home = () => {
             <TestimonialCard
               name="Aisha Sharma"
               role="Software Engineer Intern"
-              review="CODLITE gave me the real-world exposure I needed. Working on the MERN stack projects helped me clear my placements!"
+              review="InternX gave me the real-world exposure I needed. Working on the MERN stack projects helped me clear my placements!"
             />
             <TestimonialCard
               name="Rahul Verma"

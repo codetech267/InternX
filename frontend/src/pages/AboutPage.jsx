@@ -15,7 +15,7 @@ const AboutPage = () => {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-400 mb-6">
-            About CODLITE Internship Program
+            About InternX Internship Program
           </h1>
           <p className="text-lg md:text-xl text-slate-600  max-w-3xl mx-auto leading-relaxed">
             Designed exclusively for ambitious students, our modern internship

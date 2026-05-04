@@ -16,9 +16,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="text-3xl font-extrabold tracking-tighter text-blue-600  flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center text-white text-xl">C</div>
-              ODLITE
+            <Link to="/" className="text-3xl font-extrabold tracking-tighter text-blue-600 flex items-center gap-2 group">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center text-white text-xl relative overflow-hidden">
+                <span className="relative z-10 group-hover:animate-pulse">X</span>
+                <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
+              </div>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">
+                InternX
+              </span>
             </Link>
           </div>
           <div className="hidden md:flex space-x-1 items-center">

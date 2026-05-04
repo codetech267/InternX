@@ -29,7 +29,7 @@ const ContactPage = () => {
                             <div className="p-4 bg-blue-100  rounded-2xl text-blue-600  text-2xl">📧</div>
                             <div>
                                 <h4 className="font-bold text-lg text-slate-800  mb-1">Email Support</h4>
-                                <p className="text-slate-500  font-medium">studentsupport@codlite.com</p>
+                                <p className="text-slate-500  font-medium">studentsupport@internx.com</p>
                             </div>
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.02 }} className="flex items-center gap-6 glass p-6 rounded-2xl border border-slate-200  transition-all cursor-pointer hover:shadow-lg">
